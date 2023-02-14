@@ -1,4 +1,4 @@
-FROM openjdk:11
+FROM OPENJDK:11
 EXPOSE 8080
 ADD target/myexam-0.0.1-SNAPSHOT.jar myexam-0.0.1-SNAPSHOT.jar
-ENTRYPOINT ["java","-jar","/myexam-0.0.1-SNAPSHOT.jar"]
+ENTYRPOINT ["java","-jar","myexam-0.0.1-SNAPSHOT.jar"] 
